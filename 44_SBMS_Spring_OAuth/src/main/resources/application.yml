@@ -1,0 +1,13 @@
+
+server:
+  port: 8095
+  
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          github:
+            clientId: 153bd6555614485402fd 
+            clientSecret: 858c5950f4946cb75f51834256aed32e19dca00d
+

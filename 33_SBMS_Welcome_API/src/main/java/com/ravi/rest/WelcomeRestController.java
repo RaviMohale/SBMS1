@@ -19,8 +19,9 @@ public class WelcomeRestController {
 		
 		/*
 		 * RestTemplate rt = new RestTemplate(); ResponseEntity<String> forEntity =
-		 * rt.getForEntity("http://localhost:8081/greet", String.class); String greetRes
-		 * = forEntity.getBody();
+		 * rt.getForEntity("http://localhost:8081/greet", String.class); 
+		 * String greetRes = forEntity.getBody();
+		 * return greetRes +  ", Welcome to Ashok IT";
 		 */
 		
 	String greetRes = greetClient.invokeGreetApi();
